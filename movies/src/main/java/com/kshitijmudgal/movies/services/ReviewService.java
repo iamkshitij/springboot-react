@@ -1,5 +1,8 @@
-package com.kshitijmudgal.movies;
+package com.kshitijmudgal.movies.services;
 
+import com.kshitijmudgal.movies.pojo.Movie;
+import com.kshitijmudgal.movies.pojo.Review;
+import com.kshitijmudgal.movies.repository.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

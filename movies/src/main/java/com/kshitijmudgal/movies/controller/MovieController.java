@@ -1,12 +1,13 @@
-package com.kshitijmudgal.movies;
+package com.kshitijmudgal.movies.controller;
 
 import java.util.List;
 import java.util.Optional;
 
+import com.kshitijmudgal.movies.pojo.Movie;
+import com.kshitijmudgal.movies.services.MovieService;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

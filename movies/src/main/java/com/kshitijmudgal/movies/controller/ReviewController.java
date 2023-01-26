@@ -1,7 +1,9 @@
-package com.kshitijmudgal.movies;
+package com.kshitijmudgal.movies.controller;
 
 import java.util.Map;
 
+import com.kshitijmudgal.movies.pojo.Review;
+import com.kshitijmudgal.movies.services.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

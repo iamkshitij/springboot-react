@@ -1,4 +1,4 @@
-package com.kshitijmudgal.movies;
+package com.kshitijmudgal.movies.pojo;
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

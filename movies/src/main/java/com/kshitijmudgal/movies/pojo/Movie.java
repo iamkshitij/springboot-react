@@ -1,4 +1,4 @@
-package com.kshitijmudgal.movies;
+package com.kshitijmudgal.movies.pojo;
 
 import java.util.List;
 
